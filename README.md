@@ -41,6 +41,8 @@ Alternatively, you can simply copy the files from the `src` folder to your proje
    - Click "Generate new private key" to download the JSON file
 3. Keep the service account file secure and never include it in version control
 
+image.png
+
 ## Basic Usage
 
 ### JavaScript
