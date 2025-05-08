@@ -39,9 +39,10 @@ Alternatively, you can simply copy the files from the `src` folder to your proje
 2. A Firebase service account (JSON file)
    - Go to the Firebase Console → Project Settings → Service Accounts
    - Click "Generate new private key" to download the JSON file
+   
+   ![Firebase Service Account Key Generation](./assets/images/firebasePrivateKey.png)
+   
 3. Keep the service account file secure and never include it in version control
-
-image.png
 
 ## Basic Usage
 
