@@ -62,8 +62,8 @@ async function main(): Promise<void> {
     const data: Record<string, string> = {
       type: 'test',
       timestamp: Date.now().toString(),
-      claimId: 'a0QD700000aHjIfMAK', // Claim ID for deep linking in the app
-      action: 'OPEN_CLAIM_DETAILS' // Action for the app to know how to process the deep link
+      claimId: '1234567890', // Claim ID for deep linking in the app
+      action: 'OPEN_DETAILS' // Action for the app to know how to process the deep link
     };
 
     // Send a test notification
