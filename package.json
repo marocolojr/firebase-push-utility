@@ -1,0 +1,29 @@
+{
+  "name": "firebase-push-utility",
+  "version": "1.0.0",
+  "description": "Utilitário para envio de notificações push via Firebase Cloud Messaging",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "node examples/test.js"
+  },
+  "keywords": [
+    "firebase",
+    "fcm",
+    "push-notifications",
+    "cloud-messaging"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+} 
